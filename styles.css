@@ -1,2 +1,6 @@
-.
- background: black
+body {
+  background-color: #282828
+}
+.center {
+  text-align: center;
+}
