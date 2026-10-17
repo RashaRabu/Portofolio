@@ -4,8 +4,12 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Agar tinggi halaman minimal sepenuh layar */
+    min-height: 100vh;
+    background-color: #20242b
 }
 footer {
   background-color: #484848e2
+}
+.card {
+  background-color: #6c757d;
 }
