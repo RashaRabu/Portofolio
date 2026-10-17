@@ -1,15 +1,255 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #20242b
+.container {
+
 }
-footer {
-  background-color: #484848e2
+
+.section {
+
 }
+
+.section-header {
+
+}
+
+.section-title {
+
+}
+
+.section-subtitle {
+
+}
+
+
+/* ==================== 2. HEADER & NAVIGATION ==================== */
+.site-header {
+
+}
+
+.header-container {
+
+}
+
+.logo {
+
+}
+
+.hamburger-icon {
+
+}
+
+.bar {
+
+}
+
+.nav-menu {
+
+}
+
+.nav-list {
+
+}
+
+.nav-item {
+
+}
+
+.nav-link {
+
+}
+
+
+/* ==================== 3. HERO (HOME) SECTION ==================== */
+.hero-section {
+
+}
+
+.hero-container {
+
+}
+
+.hero-content {
+
+}
+
+.hero-greeting {
+
+}
+
+.hero-title {
+
+}
+
+
+/* ==================== 4. ABOUT ME SECTION ==================== */
+.about-section {
+
+}
+
+.about-wrapper {
+
+}
+
+.about-image-wrapper {
+
+}
+
+.about-img {
+
+}
+
+.about-content {
+
+}
+
+.about-text {
+
+}
+
+.about-intro {
+
+}
+
+.about-bio {
+
+}
+
+.bio-cta {
+
+}
+
+.social-links {
+
+}
+
+.btn-social {
+
+}
+
+
+/* ==================== 5. EXPERIENCE SECTION ==================== */
+.experience-section {
+
+}
+
+.experience-grid {
+
+}
+
 .card {
-  background-color: #bb6868e2;
+
+}
+
+.experience-card {
+
+}
+
+.card-icon {
+
+}
+
+.card-body {
+
+}
+
+.card-title {
+
+}
+
+.card-desc {
+
+}
+
+
+/* ==================== 6. SKILLS SECTION ==================== */
+.skills-section {
+
+}
+
+.skills-container {
+
+}
+
+
+/* ==================== 7. PROJECTS SECTION ==================== */
+.project-section {
+
+}
+
+.projects-grid {
+
+}
+
+.project-card {
+
+}
+
+.project-img-wrapper {
+
+}
+
+.project-img {
+
+}
+
+.project-body {
+
+}
+
+.project-title {
+
+}
+
+.project-desc {
+
+}
+
+.project-actions {
+
+}
+
+.btn {
+
+}
+
+.btn-project {
+
+}
+
+
+/* ==================== 8. SHOWCASE SECTION ==================== */
+.showcase-section {
+
+}
+
+.showcase-grid {
+
+}
+
+.showcase-item {
+
+}
+
+.showcase-img {
+
+}
+
+
+/* ==================== 9. FOOTER ==================== */
+.site-footer {
+
+}
+
+.footer-container {
+
+}
+
+.footer-contacts {
+
+}
+
+.footer-link {
+
+}
+
+.footer-copyright {
+
 }
