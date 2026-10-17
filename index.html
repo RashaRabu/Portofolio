@@ -8,340 +8,470 @@
 </head>
 <body>
 
-  <header>
-    <div class="logo">
-      <a href="#home">RabuSoore</a>
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="#home">RabuSoore</a>
+      </div>
+
+      <!-- Checkbox toggle menu hamburger -->
+      <input type="checkbox" id="menu-toggle" aria-label="Toggle Navigation Menu">
+      
+      <!-- Tombol icon hamburger -->
+      <label for="menu-toggle" class="hamburger-icon">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <!-- Menu navigasi -->
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#project" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#showcase" class="nav-link">Showcase</a></li>
+        </ul>
+      </nav>
     </div>
-
-    <!-- Checkbox toggle menu hamburger -->
-    <input type="checkbox" id="menu-toggle" aria-label="Toggle Navigation Menu">
-    
-    <!-- Tombol icon hamburger -->
-    <label for="menu-toggle" class="hamburger-icon">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </label>
-
-    <!-- Menu navigasi -->
-    <nav class="nav-menu">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#project">Projects</a></li>
-        <li><a href="#showcase">Showcase</a></li>
-      </ul>
-    </nav>
   </header>
 
   <main>
-    <!-- HOME SECTION -->
-    <section id="home">
-      <div class="center">
-        <div class="index">
-          <p>
-           Hi i'm RabuSoore! Minecraft server dev, frontend builder and content creator
+    <!-- ==================== HOME SECTION ==================== -->
+    <section id="home" class="section hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-greeting">
+            Hi i'm RabuSoore! Minecraft server dev, frontend builder and content creator
           </p>
-          <h1>M Rasha ghifari</h1>
+          <h1 class="hero-title">M Rasha ghifari</h1>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT ME SECTION -->
-    <section id="about-me">
-      <div class="center">
-        <img src="galery/profile.png" alt="Profile Image">
-        <div class="about-me">
-          <h2>About me</h2>
-          <div class="about-intro">
-            <p>
-              Hi! I'm M. Rasha Ghifari (RabuSoore), a developer specializing in Minecraft Server Infrastructure and
-              Frontend Web Building.
-            </p>
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <section id="about-me" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About me</h2>
+        </div>
+
+        <div class="about-wrapper">
+          <div class="about-image-wrapper">
+            <img src="galery/profile.png" alt="Profile Image" class="about-img">
           </div>
-          <div class="about-bio">
-            <p>
-              Since 2023, I have been building and optimizing end-to-end Minecraft server networks—ranging from complex
-              RPG mechanics (MMOItems, MythicMobs) and custom economies to performance tuning and cross-play setup. In
-              2025, I expanded into Frontend Web Development to build website
-            </p>
-          </div>
-          <div class="bio-cta">
-            <p>
-              I combine technical configuration with clean design to build fast, reliable, and engaging digital
-              experiences. Currently open for freelance projects, server setup commissions, and web development
-              collaborations
-            </p>
-          </div>
-          <div class="icon">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">Youtube</a>
-            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">Tiktok</a>
-            <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">Contact</a>
+
+          <div class="about-content">
+            <div class="about-text">
+              <p class="about-intro">
+                Hi! I'm M. Rasha Ghifari (RabuSoore), a developer specializing in Minecraft Server Infrastructure and
+                Frontend Web Building.
+              </p>
+              <p class="about-bio">
+                Since 2023, I have been building and optimizing end-to-end Minecraft server networks—ranging from complex
+                RPG mechanics (MMOItems, MythicMobs) and custom economies to performance tuning and cross-play setup. In
+                2025, I expanded into Frontend Web Development to build website.
+              </p>
+              <p class="bio-cta">
+                I combine technical configuration with clean design to build fast, reliable, and engaging digital
+                experiences. Currently open for freelance projects, server setup commissions, and web development
+                collaborations.
+              </p>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-social">Github</a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="btn-social">Youtube</a>
+              <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="btn-social">Tiktok</a>
+              <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" class="btn-social">Contact</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- EXPERIENCE SECTION -->
-    <section id="experience">
-      <div class="center">
-        <h2>My Experience</h2>
-        <p>
-          My Experience as a Minecraft Developer, Frontend Builder, and Content Creator
-        </p>
+    <!-- ==================== EXPERIENCE SECTION ==================== -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Experience</h2>
+          <p class="section-subtitle">
+            My Experience as a Minecraft Developer, Frontend Builder, and Content Creator
+          </p>
+        </div>
         
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-Proxy</h4>
-          <p>
-            Configuring authentication plugins, offline-mode (cracked) support, LuckPerms database synchronization,
-            GeyserMC Bedrock cross-play, anti-bot protection, dynamic MOTD, and server voting systems.
-          </p>
-        </div>
+        <!-- Grid wrapper untuk kartu experience -->
+        <div class="experience-grid">
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-Proxy</h4>
+              <p class="card-desc">
+                Configuring authentication plugins, offline-mode (cracked) support, LuckPerms database synchronization,
+                GeyserMC Bedrock cross-play, anti-bot protection, dynamic MOTD, and server voting systems.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-Rpg</h4>
-          <p>
-            Designing an open-world RPG environment featuring custom boss encounters with tailored loot drops,
-            open-world dungeons, legendary weapons, custom armor sets, weapon skins, and socketable gems. Built using
-            MMOItems and ItemsAdder, powered by ModelEngine and MythicMobs.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-Rpg</h4>
+              <p class="card-desc">
+                Designing an open-world RPG environment featuring custom boss encounters with tailored loot drops,
+                open-world dungeons, legendary weapons, custom armor sets, weapon skins, and socketable gems. Built using
+                MMOItems and ItemsAdder, powered by ModelEngine and MythicMobs.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-Fishing mania</h4>
-          <p>
-            Configuring open-world fishing zones, custom fish species with custom textures, custom fishing quests, and a
-            dedicated fishing shop economy—powered by 3D Blockbench models, ItemsAdder, MMOItems, and CustomFishing
-            plugin mechanics.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-Fishing mania</h4>
+              <p class="card-desc">
+                Configuring open-world fishing zones, custom fish species with custom textures, custom fishing quests, and a
+                dedicated fishing shop economy—powered by 3D Blockbench models, ItemsAdder, MMOItems, and CustomFishing
+                plugin mechanics.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-Lobby</h4>
-          <p>
-            Configuring a central lobby hub featuring interactive navigation NPCs for sub-server teleportation, dynamic
-            leaderboard holograms, top donator showcases, and setup world spawn.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-Lobby</h4>
+              <p class="card-desc">
+                Configuring a central lobby hub featuring interactive navigation NPCs for sub-server teleportation, dynamic
+                leaderboard holograms, top donator showcases, and setup world spawn.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-Cpvp economy</h4>
-          <p>
-            Configuring a high-performance CPVP Economy mode featuring dedicated FFA arenas with automated block
-            cleanup, custom GUI Random Teleports (RTP), embedded item worth indicators, specialized combat shops, gacha
-            crate mechanics, robust anti-cheat detection, and heavy-combat server optimization.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-Cpvp economy</h4>
+              <p class="card-desc">
+                Configuring a high-performance CPVP Economy mode featuring dedicated FFA arenas with automated block
+                cleanup, custom GUI Random Teleports (RTP), embedded item worth indicators, specialized combat shops, gacha
+                crate mechanics, robust anti-cheat detection, and heavy-combat server optimization.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-Survival hardcore</h4>
-          <p>
-            Configuring a minimalist, pure vanilla Hardcore survival environment with an automated permadeath ban system
-            upon death, featuring unmodded gameplay mechanics and zero shop or economic bloat.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-Survival hardcore</h4>
+              <p class="card-desc">
+                Configuring a minimalist, pure vanilla Hardcore survival environment with an automated permadeath ban system
+                upon death, featuring unmodded gameplay mechanics and zero shop or economic bloat.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-Survival Eco</h4>
-          <p>
-            Configuring a stable Survival Economy mode featuring GriefPrevention land claiming, a highly balanced
-            inflation-resistant economy, dynamic player warps, auction house integration, and secure player trading
-            protocols.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-Survival Eco</h4>
+              <p class="card-desc">
+                Configuring a stable Survival Economy mode featuring GriefPrevention land claiming, a highly balanced
+                inflation-resistant economy, dynamic player warps, auction house integration, and secure player trading
+                protocols.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-Survival Mix</h4>
-          <p>
-            Designing a feature-rich hybrid survival environment with custom GUI menus, bespoke shop setups, land claim
-            protection, driveable custom vehicles, and optimized core survival mechanics.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-Survival Mix</h4>
+              <p class="card-desc">
+                Designing a feature-rich hybrid survival environment with custom GUI menus, bespoke shop setups, land claim
+                protection, driveable custom vehicles, and optimized core survival mechanics.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-Oneblock tycoon</h4>
-          <p>
-            Setting up custom tycoon generators, sellwands, beautiful GUI menus, custom shops, and a player order
-            system. Includes custom fishing with 3D rods, unique fish, and custom chat formatting
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-Oneblock tycoon</h4>
+              <p class="card-desc">
+                Setting up custom tycoon generators, sellwands, beautiful GUI menus, custom shops, and a player order
+                system. Includes custom fishing with 3D rods, unique fish, and custom chat formatting.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-Skyblock</h4>
-          <p>
-            Configuring island team management protocols, custom ore generators, and a balanced shop economy for a
-            feature-rich Skyblock server. Integrated with custom island upgrades, automated resource minions, dynamic
-            scoreboards, daily reward mechanics, and loot crate systems.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-Skyblock</h4>
+              <p class="card-desc">
+                Configuring island team management protocols, custom ore generators, and a balanced shop economy for a
+                feature-rich Skyblock server. Integrated with custom island upgrades, automated resource minions, dynamic
+                scoreboards, daily reward mechanics, and loot crate systems.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-AcidIsland</h4>
-          <p>
-            Designing a challenging toxic-water survival environment featuring custom island upgrades, hazardous ocean
-            mechanics, and a balanced shop economy. Integrated with custom ore generators, island team management,
-            automated resource minions, dynamic scoreboards, and loot crate systems
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-AcidIsland</h4>
+              <p class="card-desc">
+                Designing a challenging toxic-water survival environment featuring custom island upgrades, hazardous ocean
+                mechanics, and a balanced shop economy. Integrated with custom ore generators, island team management,
+                automated resource minions, dynamic scoreboards, and loot crate systems.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-BoxSmp</h4>
-          <p>
-            Configuring a BoxSMP server featuring custom box upgrader mechanics built with UltraCustomizer, custom
-            items, and unique 3D textures powered by ItemsAdder and MMOItems.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-BoxSmp</h4>
+              <p class="card-desc">
+                Configuring a BoxSMP server featuring custom box upgrader mechanics built with UltraCustomizer, custom
+                items, and unique 3D textures powered by ItemsAdder and MMOItems.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>MawiSMP-EarthSMP</h4>
-          <p>
-            Configuring an Earth SMP server featuring a realistic real-world map scale, driveable custom vehicles, and a
-            highly balanced shop economy
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">MawiSMP-EarthSMP</h4>
+              <p class="card-desc">
+                Configuring an Earth SMP server featuring a realistic real-world map scale, driveable custom vehicles, and a
+                highly balanced shop economy.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>AksaraSMP</h4>
-          <p>
-            Configuring AksaraSMP as a lawless Anarchy RPG server with zero rules, unrestricted griefing, custom RPG
-            progression, and powerful legendary weapons
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">AksaraSMP</h4>
+              <p class="card-desc">
+                Configuring AksaraSMP as a lawless Anarchy RPG server with zero rules, unrestricted griefing, custom RPG
+                progression, and powerful legendary weapons.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>RivalSmp</h4>
-          <p>
-            Developing a Survival Mix server featuring custom items using default vanilla textures, interactive GUI
-            menus, a tailored shop economy, robust anti-cheat protection, and essential quality-of-life mechanics.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">RivalSmp</h4>
+              <p class="card-desc">
+                Developing a Survival Mix server featuring custom items using default vanilla textures, interactive GUI
+                menus, a tailored shop economy, robust anti-cheat protection, and essential quality-of-life mechanics.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>Valexsmp</h4>
-          <p>
-            Configuring server bug fixes, plugin troubleshooting, performance optimization, and stability maintenance
-            for ValexSMP.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Valexsmp</h4>
+              <p class="card-desc">
+                Configuring server bug fixes, plugin troubleshooting, performance optimization, and stability maintenance
+                for ValexSMP.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>Content creator</h4>
-          <p>
-            Creating short-form Minecraft video content and promotional scripts. Editing with CapCut and publishing to
-            TikTok and YouTube to build server engagement and grow the community.
-          </p>
-        </div>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Content creator</h4>
+              <p class="card-desc">
+                Creating short-form Minecraft video content and promotional scripts. Editing with CapCut and publishing to
+                TikTok and YouTube to build server engagement and grow the community.
+              </p>
+            </div>
+          </div>
 
-        <div class="card">
-          <img src="galery/mawi.png" alt="logo server">
-          <h4>Frontend builder</h4>
-          <p>
-            as you can see
-          </p>
+          <div class="card experience-card">
+            <div class="card-icon">
+              <img src="galery/mawi.png" alt="logo server">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Frontend builder</h4>
+              <p class="card-desc">
+                as you can see
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- SKILLS SECTION -->
-    <section id="skills">
-      <h2>My skills</h2>
-      <div class="skills-container">
-        <!-- Tempat untuk memasukkan daftar keahlian Anda -->
-      </div>
-    </section>
-
-    <!-- PROJECT SECTION -->
-    <section id="project">
-      <h2>My Projects</h2>
-      <div class="center">
-        <div class="project">
-          <img src="galery/website.png" alt="Portfolio website thumbnail">
-          <h4>Portofolio website 2026-now</h4>
-          <p>My first portofolio website</p>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">Click to see</a>
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My skills</h2>
+          <p class="section-subtitle">Technologies and tools I specialize in</p>
         </div>
-
-        <div class="project">
-          <img src="galery/mawi.png" alt="MawiSMP thumbnail">
-          <h4>MawiSMP 2023-now</h4>
-          <p>My minecraft server</p>
-          <a href="https://minecraftmp.com" target="_blank" rel="noopener noreferrer">Click to see</a>
-        </div>
-
-        <div class="project">
-          <img src="galery/python.png" alt="Python learning thumbnail">
-          <h4>Learning python 2026-now</h4>
-          <p>Right now im learning python</p>
-        </div>
-
-        <div class="project">
-          <img src="galery/content_creator.png" alt="Content creator thumbnail">
-          <h4>Becoming content creator 2026-now</h4>
-          <p>Become minecraft content creator and more</p>
+        <div class="skills-container">
+          <!-- Tempat untuk memasukkan daftar keahlian Anda, misalnya:
+          <div class="skill-category">
+            <h3>Minecraft Development</h3>
+            <div class="skill-tags">
+              <span class="skill-badge">MMOItems</span>
+              <span class="skill-badge">MythicMobs</span>
+              <span class="skill-badge">ItemsAdder</span>
+            </div>
+          </div>
+          -->
         </div>
       </div>
     </section>
 
-    <!-- SHOWCASE SECTION -->
-    <section id="showcase">
-      <header>
-        <h2>Showcase from my project</h2>
-      </header>
-      <div class="showcase-container">
-        <div class="showcase">
-          <img src="galeey/showcase1.png" alt="Showcase image 1">
+    <!-- ==================== PROJECT SECTION ==================== -->
+    <section id="project" class="section project-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Projects</h2>
+          <p class="section-subtitle">Some of the projects I've built and worked on</p>
         </div>
-        <div class="showcase">
-          <img src="galeey/showcase1.png" alt="Showcase image 2">
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="galery/website.png" alt="Portfolio website thumbnail" class="project-img">
+            </div>
+            <div class="project-body">
+              <h4 class="project-title">Portofolio website 2026-now</h4>
+              <p class="project-desc">My first portofolio website</p>
+              <div class="project-actions">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-project">Click to see</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="galery/mawi.png" alt="MawiSMP thumbnail" class="project-img">
+            </div>
+            <div class="project-body">
+              <h4 class="project-title">MawiSMP 2023-now</h4>
+              <p class="project-desc">My minecraft server</p>
+              <div class="project-actions">
+                <a href="https://minecraftmp.com" target="_blank" rel="noopener noreferrer" class="btn btn-project">Click to see</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="galery/python.png" alt="Python learning thumbnail" class="project-img">
+            </div>
+            <div class="project-body">
+              <h4 class="project-title">Learning python 2026-now</h4>
+              <p class="project-desc">Right now im learning python</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img-wrapper">
+              <img src="galery/content_creator.png" alt="Content creator thumbnail" class="project-img">
+            </div>
+            <div class="project-body">
+              <h4 class="project-title">Becoming content creator 2026-now</h4>
+              <p class="project-desc">Become minecraft content creator and more</p>
+            </div>
+          </div>
         </div>
-        <div class="showcase">
-          <img src="galeey/showcase1.png" alt="Showcase image 3">
+      </div>
+    </section>
+
+    <!-- ==================== SHOWCASE SECTION ==================== -->
+    <section id="showcase" class="section showcase-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Showcase from my project</h2>
         </div>
-        <div class="showcase">
-          <img src="galeey/showcase1.png" alt="Showcase image 4">
-        </div>
-        <div class="showcase">
-          <img src="galeey/showcase1.png" alt="Showcase image 5">
-        </div>
-        <div class="showcase">
-          <img src="galeey/showcase1.png" alt="Showcase image 6">
-        </div>
-        <div class="showcase">
-          <img src="galeey/showcase1.png" alt="Showcase image 7">
+        <div class="showcase-grid">
+          <div class="showcase-item">
+            <img src="galery/showcase1.png" alt="Showcase image 1" class="showcase-img">
+          </div>
+          <div class="showcase-item">
+            <img src="galery/showcase1.png" alt="Showcase image 2" class="showcase-img">
+          </div>
+          <div class="showcase-item">
+            <img src="galery/showcase1.png" alt="Showcase image 3" class="showcase-img">
+          </div>
+          <div class="showcase-item">
+            <img src="galery/showcase1.png" alt="Showcase image 4" class="showcase-img">
+          </div>
+          <div class="showcase-item">
+            <img src="galery/showcase1.png" alt="Showcase image 5" class="showcase-img">
+          </div>
+          <div class="showcase-item">
+            <img src="galery/showcase1.png" alt="Showcase image 6" class="showcase-img">
+          </div>
+          <div class="showcase-item">
+            <img src="galery/showcase1.png" alt="Showcase image 7" class="showcase-img">
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="footer-contacts">
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a>
-      <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
-      <a href="mailto:email@example.com">Email</a>
-      <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-contacts">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="footer-link">TikTok</a>
+        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="footer-link">YouTube</a>
+        <a href="mailto:email@example.com" class="footer-link">Email</a>
+        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp</a>
+      </div>
+      <p class="footer-copyright">&copy; 2026 M. Rasha Ghifari (RabuSoore). All rights reserved.</p>
     </div>
-    <p>&copy; 2026 M. Rasha Ghifari (RabuSoore). All rights reserved.</p>
   </footer>
 
 </body>
